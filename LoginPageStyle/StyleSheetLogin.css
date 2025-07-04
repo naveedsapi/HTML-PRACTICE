@@ -1,0 +1,21 @@
+.header{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(234, 239, 81);
+    background-color: rgb(74, 8, 228);
+
+}
+.menu{
+    background-color: blueviolet;
+}
+.container{
+    background-color: rgb(98, 102, 102);
+}
+.footer{
+    background-color: black;
+    color: wheat;
+}
+legend{
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
