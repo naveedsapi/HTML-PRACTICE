@@ -2,20 +2,60 @@
     font-family: 'Times New Roman', Times, serif;
     color: rgb(234, 239, 81);
     background-color: rgb(74, 8, 228);
+    font-size: 60px;
 
 }
-.menu{
-    background-color: blueviolet;
+#Mainnav{
+background:gray;
+color:whitesmoke;
+text-align: right;
+
+padding: 6px;
 }
-.container{
-    background-color: rgb(98, 102, 102);
+#Mainnav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
-.footer{
-    background-color: black;
-    color: wheat;
+#Mainnav li{
+    display: inline;
+    padding:5px 10px;
 }
+#Mainnav a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+}
+#Mainnav li:hover{
+    background: black;
+}
+.containerL{
+float: left;
+width: 60%;
+padding:5%;
+box-sizing: border-box;
+background-color: gray;
+font-family: 'Times New Roman', Times, serif;
+
+}
+.containerR{
+    float:right;
+    width: 40%;
+    padding:5%;
+    box-sizing: border-box;
+    background-color:whitesmoke;
+}
+
 legend{
     color:red;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
+}
+
+.footer{
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
 }

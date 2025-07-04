@@ -3,25 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <link rel="stylesheet" href="./LoginPageStyle/StyleSheetLogin.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Logi Form</h1><hr>
 
-    <div>
-       <form action="server.php">
+    <div class="MainContainer">
+         <div class="header">Backerei Kettle  </div>
+        <nav id="Mainnav" >
+          <div class="menu">
+              <ul>
+                 <li><a href="">Login</a></li>
+                <li><a href="">LogOut</a></li>
+              </ul> 
+         </div>
+       </nav>
+    <br>
+
+    <div class="containerL">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Fuga, eaque ex inventore veniam culpa ipsum iste amet enim ad consectetur, rem voluptate dolorum possimus 
+            rerum officia est recusandae quo quaerat?</p>
+    </div>
+    <div class="containerR">
+         <form action="server.php">
         <fieldset>
             <legend>Pleas LogIn!</legend>
             <label>UserName</label><br>
-            <input type="text" name="Username" value="" ><br>
+            <input type="text" name="Username" value="" placeholder="Please Enter UserName!" ><br>
             <label>Password</label><br>
-            <input type="password" name="Password" value=""><br>
+            <input type="password" name="Password" placeholder="Please Enter Password!" value=""><br><br>
             <label><input type="submit" value="Login"> </label><br>
           
         </fieldset>
        </form>
-    </div><br>
+        
+    </div>
+
+    </div>
+     <div class="footer"> 
+        <p> CopyRight &copy; 2025 Backerei Kettle </p>
+    </div>
+   
+
+   
     
-  <a href="Index.html">Go Back to Home Page</a>
+ 
 </body>
 </html>
