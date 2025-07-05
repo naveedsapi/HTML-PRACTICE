@@ -1,22 +1,60 @@
-.header{
-    background-color: blue;
-    color: whitesmoke;
-    font-family: sans-serif;
-    font-size: 20px;
+
+*{
+    box-sizing: border-box;
 }
-.body{
-    width:100px;
+body{
+    margin: 0;
+}
+.header{
+    background-color:rgb(63, 63, 63);
+    color: rgb(249, 248, 248);
+    font-family: sans-serif;
+    padding: 25px;
+    text-align: center;
+}
+
+.Minu ul{
+    list-style: none;
+    background-color:black ;
+    color:whitesmoke;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+.Minu a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align: center;
+}
+
+.Minu a:hover{
+    background-color:rgb(52, 51, 51) ;
+}
+.Minu li{
+    float: left;
 }
 .SidLeft{
-float: left;
-padding:5px;
-width: 40px;
-box-sizing: border-box;
-
+     width: 30%;
+    float: left;
+    padding:5px;
+}
+.sidImag{
+     width: 30%;
+    float: left;
+   padding: 5px;
 }
 .SidRight{
-    float:right;
-    padding: 5px;
-    width: 60px;
-    box-sizing: border-box;
+     width: 40%;
+    float:left;
+   padding: 5px;
+}
+.Foother{
+    display: block;
+    clear: both;
+    background-color: rgb(69, 70, 70);
+    color: white;
+    text-align: center;
+    padding: 25px;
 }
