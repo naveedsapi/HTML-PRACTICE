@@ -1,21 +1,31 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
 .header{
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(234, 239, 81);
-    background-color: rgb(74, 8, 228);
+    font-family:sans-serif;
+    color: rgb(246, 246, 243);
+    background-color: rgb(105, 105, 105);
     font-size: 60px;
 
 }
 #Mainnav{
-background:gray;
+background:rgb(8, 8, 8);
 color:whitesmoke;
 text-align: right;
-
 padding: 6px;
 }
+
 #Mainnav ul{
+     list-style: none;
     padding: 0;
     margin: 0;
-    list-style: none;
+  
 }
 #Mainnav li{
     display: inline;
@@ -27,22 +37,18 @@ padding: 6px;
     font-size: 18px;
 }
 #Mainnav li:hover{
-    background: black;
+    background: rgb(112, 111, 111);
 }
+
 .containerL{
 float: left;
 width: 60%;
 padding:5%;
-box-sizing: border-box;
-background-color: gray;
-font-family: 'Times New Roman', Times, serif;
-
 }
 .containerR{
-    float:right;
+    float:left;
     width: 40%;
     padding:5%;
-    box-sizing: border-box;
     background-color:whitesmoke;
 }
 
@@ -53,9 +59,11 @@ legend{
 }
 
 .footer{
-    background-color: black;
-    color: wheat;
+    display:block;
+    clear: both;
+    background-color: rgb(96, 96, 96);
+    color: rgb(244, 242, 239);
     text-align: center;
-    padding: 20px;
-    margin-top: 50px;
+    font-family: sans-serif;
+    padding:20px;
 }

@@ -14,7 +14,7 @@ body{
     text-align: center;
 }
 .Banner{
-    background-color: rgb(37, 156, 211);
+    background-color: rgb(167, 213, 235);
     padding: 25px;;
     height: auto;
     border-radius: 5px;
@@ -61,10 +61,10 @@ body{
     float: left;
 }
 .Foother{
-     display: block;
+    display: block;
     clear: both;
     background-color: rgb(69, 70, 70);
     color: white;
     text-align: center;
-    padding: 25px;
+    padding: 10px;
 }
