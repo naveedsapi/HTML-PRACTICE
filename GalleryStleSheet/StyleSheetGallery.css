@@ -1,0 +1,23 @@
+.Images{
+    display: inline-block;
+    border: 1px solid gray;
+    margin:5PX;
+    width: 250px;
+    
+}
+.Images .Description{
+   padding:10px;
+   text-align:center;
+}
+.Images:hover{
+    border: 1px solid gold;
+
+}
+.Images img{
+    width: 100%;
+    height: 250px;
+}
+.Images img:hover{
+    width: 280px;
+    height: 280px;
+}
