@@ -1,0 +1,64 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.Header{
+    font-family:sans-serif;
+    color: rgb(246, 246, 243);
+    background-color: rgb(105, 105, 105);
+    font-size: 60px;
+}
+
+
+.Minu ul{
+    list-style: none;
+    background-color: black;
+    color: whitesmoke;
+    padding: 0%;
+    margin:0%;
+   overflow: hidden;
+}
+.Minu a{
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+    padding:20px;
+    display: block;
+    text-align: center;
+
+}
+.Minu a:hover{
+    background-color: grey;
+    color: rgb(226, 177, 43);
+}
+.Minu li{
+    float: left;
+}
+
+
+.SidLeft{
+float: left;
+width: 60%;
+padding:5%;
+}
+.SidRight{
+    float:left;
+    width: 40%;
+    padding:5%;
+    background-color:whitesmoke;
+}
+
+
+.Foother{
+    display:block;
+    clear: both;
+    background-color: rgb(96, 96, 96);
+    color: rgb(244, 242, 239);
+    text-align: center;
+    font-family: sans-serif;
+    padding:20px;
+}
